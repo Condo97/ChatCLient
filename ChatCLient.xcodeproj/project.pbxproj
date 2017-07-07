@@ -16,6 +16,14 @@
 		BB05EBA11E3A941400DC436A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB05EB9F1E3A941400DC436A /* LaunchScreen.storyboard */; };
 		BB05EBAC1E3A941500DC436A /* ChatCLientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB05EBAB1E3A941500DC436A /* ChatCLientTests.m */; };
 		BB05EBB71E3A941500DC436A /* ChatCLientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB05EBB61E3A941500DC436A /* ChatCLientUITests.m */; };
+		BB360F951E3BAB6600579DEA /* SelfChatViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB360F941E3BAB6600579DEA /* SelfChatViewControllerCell.m */; };
+		BB360F981E3BABE900579DEA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB360F971E3BABE900579DEA /* ChatViewController.m */; };
+		BB360F9E1E3BADA700579DEA /* SendMessageCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB360F9D1E3BADA700579DEA /* SendMessageCellController.m */; };
+		BB360FA11E3BB74F00579DEA /* NetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB360FA01E3BB74F00579DEA /* NetworkHandler.m */; };
+		BB3EFF9C1E3F9F0900B74994 /* CoreDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3EFF9B1E3F9F0900B74994 /* CoreDataHandler.m */; };
+		BB9D422A1E78FD850079A4F5 /* ChatListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D42291E78FD850079A4F5 /* ChatListTableViewController.m */; };
+		BB9D422D1E797A9E0079A4F5 /* ChatCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D422C1E797A9E0079A4F5 /* ChatCellController.m */; };
+		BBE8CABD1E3BAAB6000F69D9 /* OtherChatViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE8CABC1E3BAAB6000F69D9 /* OtherChatViewCellController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,22 @@
 		BB05EBB21E3A941500DC436A /* ChatCLientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatCLientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05EBB61E3A941500DC436A /* ChatCLientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCLientUITests.m; sourceTree = "<group>"; };
 		BB05EBB81E3A941500DC436A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB360F931E3BAB6600579DEA /* SelfChatViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfChatViewControllerCell.h; sourceTree = "<group>"; };
+		BB360F941E3BAB6600579DEA /* SelfChatViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfChatViewControllerCell.m; sourceTree = "<group>"; };
+		BB360F961E3BABE900579DEA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		BB360F971E3BABE900579DEA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		BB360F9C1E3BADA700579DEA /* SendMessageCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMessageCellController.h; path = ../SendMessageCellController.h; sourceTree = "<group>"; };
+		BB360F9D1E3BADA700579DEA /* SendMessageCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMessageCellController.m; path = ../SendMessageCellController.m; sourceTree = "<group>"; };
+		BB360F9F1E3BB74F00579DEA /* NetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHandler.h; sourceTree = "<group>"; };
+		BB360FA01E3BB74F00579DEA /* NetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHandler.m; sourceTree = "<group>"; };
+		BB3EFF9A1E3F9F0900B74994 /* CoreDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHandler.h; sourceTree = "<group>"; };
+		BB3EFF9B1E3F9F0900B74994 /* CoreDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHandler.m; sourceTree = "<group>"; };
+		BB9D42281E78FD850079A4F5 /* ChatListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatListTableViewController.h; path = ../ChatListTableViewController.h; sourceTree = "<group>"; };
+		BB9D42291E78FD850079A4F5 /* ChatListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatListTableViewController.m; path = ../ChatListTableViewController.m; sourceTree = "<group>"; };
+		BB9D422B1E797A9E0079A4F5 /* ChatCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCellController.h; sourceTree = "<group>"; };
+		BB9D422C1E797A9E0079A4F5 /* ChatCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCellController.m; sourceTree = "<group>"; };
+		BBE8CABB1E3BAAB6000F69D9 /* OtherChatViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherChatViewCellController.h; sourceTree = "<group>"; };
+		BBE8CABC1E3BAAB6000F69D9 /* OtherChatViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherChatViewCellController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,22 @@
 				BB05EB921E3A941400DC436A /* AppDelegate.m */,
 				BB05EB941E3A941400DC436A /* ViewController.h */,
 				BB05EB951E3A941400DC436A /* ViewController.m */,
+				BB9D42281E78FD850079A4F5 /* ChatListTableViewController.h */,
+				BB9D42291E78FD850079A4F5 /* ChatListTableViewController.m */,
+				BB9D422B1E797A9E0079A4F5 /* ChatCellController.h */,
+				BB9D422C1E797A9E0079A4F5 /* ChatCellController.m */,
+				BB360F961E3BABE900579DEA /* ChatViewController.h */,
+				BB360F971E3BABE900579DEA /* ChatViewController.m */,
+				BBE8CABB1E3BAAB6000F69D9 /* OtherChatViewCellController.h */,
+				BBE8CABC1E3BAAB6000F69D9 /* OtherChatViewCellController.m */,
+				BB360F931E3BAB6600579DEA /* SelfChatViewControllerCell.h */,
+				BB360F941E3BAB6600579DEA /* SelfChatViewControllerCell.m */,
+				BB360F9C1E3BADA700579DEA /* SendMessageCellController.h */,
+				BB360F9D1E3BADA700579DEA /* SendMessageCellController.m */,
+				BB360F9F1E3BB74F00579DEA /* NetworkHandler.h */,
+				BB360FA01E3BB74F00579DEA /* NetworkHandler.m */,
+				BB3EFF9A1E3F9F0900B74994 /* CoreDataHandler.h */,
+				BB3EFF9B1E3F9F0900B74994 /* CoreDataHandler.m */,
 				BB05EB971E3A941400DC436A /* Main.storyboard */,
 				BB05EB9D1E3A941400DC436A /* Assets.xcassets */,
 				BB05EB9F1E3A941400DC436A /* LaunchScreen.storyboard */,
@@ -280,9 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB05EB961E3A941400DC436A /* ViewController.m in Sources */,
+				BB360F9E1E3BADA700579DEA /* SendMessageCellController.m in Sources */,
 				BB05EB931E3A941400DC436A /* AppDelegate.m in Sources */,
 				BB05EB9C1E3A941400DC436A /* ChatCLient.xcdatamodeld in Sources */,
+				BBE8CABD1E3BAAB6000F69D9 /* OtherChatViewCellController.m in Sources */,
+				BB360F951E3BAB6600579DEA /* SelfChatViewControllerCell.m in Sources */,
+				BB360F981E3BABE900579DEA /* ChatViewController.m in Sources */,
+				BB360FA11E3BB74F00579DEA /* NetworkHandler.m in Sources */,
+				BB9D422A1E78FD850079A4F5 /* ChatListTableViewController.m in Sources */,
 				BB05EB901E3A941400DC436A /* main.m in Sources */,
+				BB3EFF9C1E3F9F0900B74994 /* CoreDataHandler.m in Sources */,
+				BB9D422D1E797A9E0079A4F5 /* ChatCellController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ChatCLient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACApplications.ChatCLient;
@@ -444,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ChatCLient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ACApplications.ChatCLient;
@@ -520,6 +570,7 @@
 				BB05EBBD1E3A941500DC436A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB05EBBE1E3A941500DC436A /* Build configuration list for PBXNativeTarget "ChatCLientTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +579,7 @@
 				BB05EBC01E3A941500DC436A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB05EBC11E3A941500DC436A /* Build configuration list for PBXNativeTarget "ChatCLientUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +588,7 @@
 				BB05EBC31E3A941500DC436A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
